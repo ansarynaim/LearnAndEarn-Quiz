@@ -129,10 +129,11 @@ function chooseQuestion() {
       play(hard[i].question, hard[i].answer)
     }
   }
-  console.log(chalk.bgYellow.white("Your total score is: " + score))
+
 }
 
 userChoice();
+console.log(chalk.bgYellow.white("Your Final score is: " + score))
 
 
 
